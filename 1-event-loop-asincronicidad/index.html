@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Pedidos</title>
+    <link rel="shortcut icon" href="../img/cafe.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "DynaPuff";
+        background-color: rgb(231, 223, 211);
+        margin-left: 10px;
+      }
+      h1 {
+        color: rgb(117, 70, 24);
+      }
+      button {
+        background-color: darkgoldenrod;
+        color: white;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        padding: 10px 20px;
+      }
+      button:hover {
+        background-color: #d34baf;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cafetería: Simulador de Pedidos ☕✨</h1>
+    <button id="addOrderBtn">Agregar Pedido</button>
+    <ul id="orderList"></ul>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
