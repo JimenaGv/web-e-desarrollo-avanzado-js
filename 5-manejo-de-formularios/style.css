@@ -1,0 +1,35 @@
+body {
+    background-color: #FEFAE0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #a7b184;
+    color: rgb(255, 255, 255);
+}
+
+form {
+    background-color: #E9EDC9;
+    width: 50%;
+    margin: auto;
+    padding: 30px 50px;
+    border: 1px solid #E9EDC9;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+select,
+button {
+    margin-bottom: 20px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: white;
+}

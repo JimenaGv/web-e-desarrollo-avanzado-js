@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Eventos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="../img/proyecto.png" type="image/x-icon">
+</head>
+<body>
+  <h1>Registro de Eventos 🗓️</h1>
+  <form id="registroEvento">
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <label>Intereses:</label>
+    <label><input type="checkbox" name="intereses" value="tecnología"> Tecnología</label>
+    <label><input type="checkbox" name="intereses" value="negocios"> Negocios</label>
+    <label><input type="checkbox" name="intereses" value="arte"> Arte</label>
+
+    <label>Horario preferido:</label>
+    <label><input type="radio" name="horario" value="mañana" required> Mañana (06:00 - 12:00 h)</label>
+    <label><input type="radio" name="horario" value="tarde"> Tarde (12:00 - 18:00 h)</label>
+    <label><input type="radio" name="horario" value="noche"> Noche (18:00 - 23:00 h)</label>
+
+    <label for="fecha">Fecha del evento:</label>
+    <input type="date" id="fecha" name="fecha" required>
+
+    <label for="hora">Hora preferida:</label>
+    <input type="time" id="hora" name="hora" required>
+
+    <label for="archivo">Documento de identificación (opcional):</label>
+    <input type="file" id="archivo" name="archivo">
+
+    <button type="submit">Registrarse</button>
+  </form>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
